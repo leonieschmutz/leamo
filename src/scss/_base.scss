@@ -7,6 +7,9 @@
   --black-tea-product-color: #fb7a96;
   --tonic-bio-product-color: #dea86c;
   --ginger-beer-product-color: #ff8603;
+  --h3-color: #f4f4f4;
+  --main-font-family: coolvetica, sans-serif;
+  --second-font-family: roboto, sans-serif;
 }
 
 /* ====================================
@@ -54,7 +57,30 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+h1 {
+  font-family: var(--main-font-family);
+  font-size: 27px;
+  font-weight: 400;
+}
 
+h2 {
+  font-family: var(--second-font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: var(--second-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--h3-color);
+}
+
+p {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  font-weight: 300;
+}
 /* ====================================
 // base rules
 // ==================================== */
