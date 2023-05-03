@@ -1,0 +1,18 @@
+.l-top-bar {
+  background-color: var(--main-color);
+  padding: 80px 0 20px;
+}
+
+.l-banner {
+  background-image: url(../img/header-main-page-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0 20px;
+}
+
+.l-intro {
+  margin: 30px 0 50px;
+  padding: 30px 0 20px;
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+}
