@@ -16,3 +16,24 @@
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
+
+.l-nav-desktop {
+  display: inline;
+  padding: 0 70px 0;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.l-description {
+  background-color: var(--main-color);
+  img {
+    max-width: 720px;
+  }
+}
+
+.l-footer {
+  background-image: url(/src/img/footer-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 276px;
+}

@@ -33,3 +33,21 @@
     max-height: 26px;
   }
 }
+
+.nav-desktop {
+  display: none;
+  a {
+    padding: 0 10px 0;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-desktop {
+    display: block;
+  }
+
+  .burger-menu-tag {
+    display: none;
+  }
+}
