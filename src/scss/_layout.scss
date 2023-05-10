@@ -35,5 +35,11 @@
   background-image: url(/src/img/footer-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 276px;
+  padding-top: 115px;
+}
+
+@media (min-width: 992px) {
+  .l-footer {
+    padding-top: 276px;
+  }
 }
