@@ -1,8 +1,11 @@
+@import "swiper/swiper";
+@import "bootstrap/scss/bootstrap-grid";
+
 @import "base";
 @import "layout";
-@import "bootstrap/scss/bootstrap-grid";
 @import "modules/nav";
 @import "modules/logo";
 @import "modules/banner";
 @import "modules/intro";
 @import "modules/footer";
+@import "modules/best-seller";
