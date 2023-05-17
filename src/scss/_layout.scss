@@ -24,10 +24,14 @@
   border-right: 1px solid white;
 }
 
-.l-description {
-  background-color: var(--main-color);
+.l-card {
   img {
-    max-width: 720px;
+    padding: 0;
+  }
+
+  .l-card-content {
+    background-color: var(--main-color);
+    padding: 99px 110px;
   }
 }
 

@@ -34,8 +34,6 @@
     background: white;
   }
 
-  margin: 16px;
-
   .carousel-prev,
   .carousel-next {
     position: absolute;
@@ -45,10 +43,10 @@
   }
 
   .carousel-prev {
-    left: 0;
+    left: 20px;
   }
   .carousel-next {
-    right: 0;
+    right: 20px;
   }
 
   .best-seller-button {

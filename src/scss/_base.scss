@@ -129,6 +129,22 @@ a {
   font-size: 20px;
   color: white;
 }
+
+dt {
+  font-family: var(--second-font-family);
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+  padding: 15px 0;
+}
+
+dd {
+  font-family: var(--main-font-family);
+  font-size: 25px;
+  font-weight: 200;
+  color: white;
+  line-height: 30px;
+}
 /* ====================================
 // base rules
 // ==================================== */
