@@ -11,7 +11,7 @@
 }
 
 .l-intro {
-  margin: 30px 0 50px;
+  margin: 60px 0 60px;
   padding: 30px 0 20px;
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
@@ -25,13 +25,22 @@
 }
 
 .l-card {
+  margin: 0 0 60px;
   img {
     padding: 0;
   }
 
   .l-card-content {
     background-color: var(--main-color);
-    padding: 99px 110px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .l-card {
+    .l-card-content {
+      padding: 99px 110px;
+    }
   }
 }
 
