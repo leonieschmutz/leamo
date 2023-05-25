@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header class="l-top-bar nav">
-      <div class="container">
-        <div class="row">
-          <!-- <div class="col-sm-12 nav-burger-menu">
-              <img
-                src="/src/svg/close-tag.svg"
-                alt="Bouton pour fermer le burger menu"
-              />
-              <div class="nav-burger-menu-links">
-                <a href="#">Leamo</a>
-                <a href="#">Best-sellers</a>
-                <a href="#">Recette</a>
-              </div>
-              <div class="nav-burger-menu-language">
-                <a href="#">Français</a>
-                <a href="#">Deutsch</a>
-                <a href="#">English</a>
-              </div>
-            </div> -->
-          <div class="col-12 d-flex justify-content-between">
+    <header class="nav">
+      <div class="col-12 nav-mobile">
+        <div class="nav-burger-menu-links">
+          <img
+            src="../src/svg/close-tag.svg"
+            alt="bouton pour fermer le burger menu"
+            class="burger-menu-button-close"
+          />
+          <a href="#valeurs">Valeurs</a>
+          <a href="#description">Description</a>
+          <a href="#bestseller">Best-sellers</a>
+          <a href="#recipe">Recette</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-burger-menu-language">
+          <a href="#">Français</a>
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row l-top-bar">
+          <div class="col-sm-6 col-lg-12 d-flex justify-content-between">
             <img
               src="/src/svg/Leamo-logo-white.svg"
               alt="Le logo leamo"
@@ -35,7 +38,7 @@
             />
             <div class="nav-desktop">
               <div class="l-nav-desktop">
-                <a href="#valeurs">Valeurs</a>
+                <a href="#valeurs" class="custom-underline">Valeurs</a>
                 <a href="#description">Description</a>
                 <a href="#bestseller">Best-sellers</a>
                 <a href="#recipe">Recette</a>
@@ -43,10 +46,12 @@
               </div>
               <a href="#" class="nav-language-button">Fr</a>
             </div>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-end">
             <img
               src="/src/svg/burger-menu-tag.svg"
               alt="burger menu"
-              class="burger-menu-tag"
+              class="burger-menu-button"
             />
           </div>
         </div>
@@ -71,7 +76,7 @@
                 Leamo (prononcez « Limo ») a été crée dans le but de revisiter
                 la limonade traditionnelle. Fondée par Alexis Vaillant, leamo
                 est une marque engagée pour une alimentation responsable et
-                accessible à tous, qui est  connu pour la simplicité des ses
+                accessible à tous, qui est connu pour la simplicité des ses
                 emballages tout comme celle des ingrédients. Au fil de ses
                 premières années de vie, la marque n’a cessé d’étoffer sa gamme
                 en ajoutant de nouveaux goûts. Durant les 2 prochaines années,

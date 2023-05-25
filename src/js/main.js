@@ -25,3 +25,24 @@ const initSwiper = function () {
 
 initSwiper();
 window.addEventListener("resize", initSwiper);
+
+var burgerMenuButton = document.querySelector(".burger-menu-button");
+var menu = document.querySelector(".nav-mobile");
+var body = document.querySelector("body");
+var openMenu = function () {
+  menu.classList.toggle("is-open");
+  body.classList.toggle("l-is-blocked");
+};
+
+burgerMenuButton.addEventListener("click", openMenu);
+
+var burgerMenuButtonClose = document.querySelector(".burger-menu-button-close");
+var burgerMenuLinks = document.querySelector(".nav-burger-menu-links");
+
+var closeMenu = function () {
+  menu.classList.remove("is-open");
+  body.classList.remove("l-is-blocked");
+};
+
+burgerMenuButtonClose.addEventListener("click", closeMenu);
+burgerMenuLinks.addEventListener("click", closeMenu);
