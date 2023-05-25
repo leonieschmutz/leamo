@@ -8,6 +8,8 @@
     text-decoration: none;
     margin-top: 27px;
     display: inline-block;
+    transition-property: background-color;
+    transition-duration: 0.4s;
   }
 
   a:hover {

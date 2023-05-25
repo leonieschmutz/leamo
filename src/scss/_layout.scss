@@ -33,6 +33,8 @@
   margin: 0 0 60px;
   img {
     padding: 0;
+    height: 100%;
+    object-fit: cover;
   }
 
   .l-card-content {
@@ -44,7 +46,7 @@
 @media (min-width: 992px) {
   .l-card {
     .l-card-content {
-      padding: 99px 110px;
+      padding: 20px;
     }
   }
 }

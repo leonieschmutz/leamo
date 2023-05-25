@@ -1,7 +1,4 @@
 .nav-mobile {
-  // background-color: rgba(255, 255, 255, 0.4);
-  // -webkit-backdrop-filter: blur(5px);
-  // backdrop-filter: blur(5px);
   background-color: var(--main-color);
   opacity: 0;
   transition: opacity 0.4s;
@@ -68,37 +65,37 @@
     text-decoration: underline;
   }
 
-  .custom-underline {
-    position: relative;
-    display: inline-block;
-  }
+  // .custom-underline {
+  //   position: relative;
+  //   display: inline-block;
+  // }
 
-  .custom-underline,
-  .custom-underline:hover,
-  .custom-underline:focus,
-  .custom-underline:active {
-    color: #fff;
-    text-decoration: none;
-  }
+  // .custom-underline,
+  // .custom-underline:hover,
+  // .custom-underline:focus,
+  // .custom-underline:active {
+  //   color: #fff;
+  //   text-decoration: none;
+  // }
 
-  .custom-underline::after {
-    content: "";
-    position: absolute;
-  }
+  // .custom-underline::after {
+  //   content: "";
+  //   position: absolute;
+  // }
 
-  .custom-underline::after {
-    top: 65%;
-    height: 2px;
-    width: 0%;
-    left: 5%;
-    background-color: rgba(255, 255, 255, 0.6);
-    transition: 0.5s ease all 0.3s;
-  }
+  // .custom-underline::after {
+  //   top: 65%;
+  //   height: 2px;
+  //   width: 0%;
+  //   left: 5%;
+  //   background-color: rgba(255, 255, 255, 0.6);
+  //   transition: 0.5s ease all 0.3s;
+  // }
 
-  .box-e:hover .custom-underline::after {
-    width: 90%;
-    transition: 0.3s ease all;
-  }
+  // .box-e:hover .custom-underline::after {
+  //   width: 90%;
+  //   transition: 0.3s ease all;
+  // }
 }
 
 @media (min-width: 992px) {

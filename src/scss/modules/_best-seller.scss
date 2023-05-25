@@ -58,6 +58,9 @@
     padding: 20px;
     width: 100%;
     border-top: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    transition-property: background-color;
+    transition-duration: 0.4s;
   }
   .best-seller-button:hover {
     background-color: var(--main-color);
@@ -82,5 +85,9 @@
   }
   .swiper-wrapper {
     width: 100%;
+  }
+
+  .swiper-slide .best-seller-button {
+    border-bottom: none;
   }
 }
