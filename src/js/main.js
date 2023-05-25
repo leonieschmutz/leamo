@@ -1,7 +1,7 @@
 import Swiper, { Navigation, Pagination } from "swiper";
 
 Swiper.use([Navigation, Pagination]);
-swiper = null;
+var swiper = null;
 
 const initSwiper = function () {
   if (window.innerWidth < 992) {
