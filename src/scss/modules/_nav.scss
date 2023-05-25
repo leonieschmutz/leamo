@@ -1,7 +1,8 @@
 .nav-mobile {
   background-color: var(--main-color);
   opacity: 0;
-  transition: opacity 0.4s;
+  transition-property: opacity;
+  transition-duration: 1s;
   padding: 90px 30px;
   z-index: 1;
   display: none;
