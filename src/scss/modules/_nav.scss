@@ -19,8 +19,25 @@
       font-size: 18px;
       color: #ffffff;
       padding: 9px;
+      position: relative;
+      text-decoration: none;
     }
 
+    a::after {
+      position: absolute;
+      top: 30px;
+      left: 10px;
+      content: "";
+      display: block;
+      height: 1.5px;
+      width: 0;
+      background: white;
+      transition: 0.3s ease all;
+    }
+
+    a:hover::after {
+      width: 79%;
+    }
     img {
       display: inline-block;
       width: 100%;
@@ -38,6 +55,13 @@
       font-family: var(--main-font-family);
       font-size: 44px;
       color: #ffffff;
+      opacity: 1;
+    }
+
+    a:hover {
+      transition-property: opacity;
+      transition-duration: 0.2s;
+      opacity: 0.5;
     }
 
     img {
@@ -47,6 +71,8 @@
 }
 
 .nav-mobile.is-open {
+  transition-property: opacity;
+  transition-duration: 0.4s;
   opacity: 1;
   position: absolute;
   display: block;
@@ -63,40 +89,24 @@
   display: none;
   a {
     padding: 0 10px 0;
-    text-decoration: underline;
+    position: relative;
+    text-decoration: none;
+  }
+  a::after {
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 0;
+    background: white;
+    transition: 0.3s ease all;
   }
 
-  // .custom-underline {
-  //   position: relative;
-  //   display: inline-block;
-  // }
-
-  // .custom-underline,
-  // .custom-underline:hover,
-  // .custom-underline:focus,
-  // .custom-underline:active {
-  //   color: #fff;
-  //   text-decoration: none;
-  // }
-
-  // .custom-underline::after {
-  //   content: "";
-  //   position: absolute;
-  // }
-
-  // .custom-underline::after {
-  //   top: 65%;
-  //   height: 2px;
-  //   width: 0%;
-  //   left: 5%;
-  //   background-color: rgba(255, 255, 255, 0.6);
-  //   transition: 0.5s ease all 0.3s;
-  // }
-
-  // .box-e:hover .custom-underline::after {
-  //   width: 90%;
-  //   transition: 0.3s ease all;
-  // }
+  a:hover::after {
+    width: 79%;
+  }
 }
 
 @media (min-width: 992px) {
