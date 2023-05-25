@@ -1,12 +1,11 @@
 .nav-mobile {
   background-color: var(--main-color);
-  opacity: 0;
-  transition-property: opacity;
-  transition-duration: 1s;
   padding: 90px 30px;
   z-index: 1;
   display: none;
   height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s;
 
   .nav-burger-menu-language {
     display: flex;
@@ -71,8 +70,6 @@
 }
 
 .nav-mobile.is-open {
-  transition-property: opacity;
-  transition-duration: 0.4s;
   opacity: 1;
   position: absolute;
   display: block;
